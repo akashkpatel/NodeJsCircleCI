@@ -8,6 +8,9 @@ jobs: # a collection of steps
       - run : 
             name : running first time circle ci
             command : 'echo hey this is the command'
+      - run : 
+            name : installing node dependency
+            command : npm install      
     #   - run:
     #       name: update-npm 
     #       command: 'sudo npm install -g npm@latest'
