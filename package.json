@@ -9,7 +9,8 @@
   "dependencies": {
     "express": ">= 0.0.1",
     "mongoose": ">= 0.0.1",
-    "jade": ">= *"
+    "jade": ">= *",
+    "connect_u": "0.1.0"
   },
   "devDependencies": {
     "request": ">= 0.0.1",
